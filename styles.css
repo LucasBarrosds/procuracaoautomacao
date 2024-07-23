@@ -1,63 +1,77 @@
+/* Global Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
+/* Form Container */
 form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 600px;
-    margin: 30px auto;
+    max-width: 800px;
+    margin: 40px auto;
     padding: 20px;
     background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+/* Form Heading */
 h1 {
     text-align: center;
     color: #333;
+    margin-bottom: 20px;
 }
 
+/* Section Headings */
 h2 {
     color: #4CAF50;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
 }
 
+/* Form Labels */
 label {
-    margin-top: 10px;
-    font-weight: bold;
+    margin-top: 15px;
+    font-weight: 500;
     color: #555;
+    font-size: 16px;
 }
 
+/* Input Fields */
 input {
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 12px;
     font-size: 16px;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 8px;
     box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 input:focus {
     border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     outline: none;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Submit Button */
 button {
-    padding: 12px;
+    padding: 12px 20px;
     background-color: #4CAF50;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
@@ -66,4 +80,5 @@ button:hover {
 
 button:active {
     background-color: #388e3c;
+    transform: scale(0.98);
 }
