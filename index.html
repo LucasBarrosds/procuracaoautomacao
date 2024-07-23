@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para PDF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formulário para Gerar PDF</h1>
+    <form id="userForm">
+        <h2>Outorgante</h2>
+        <label for="nome_outorgante">Nome completo:</label>
+        <input type="text" id="nome_outorgante" name="nome_outorgante" required>
+        
+        <label for="nacionalidade_outorgante">Nacionalidade:</label>
+        <input type="text" id="nacionalidade_outorgante" name="nacionalidade_outorgante" required>
+        
+        <label for="estado_civil_outorgante">Estado Civil:</label>
+        <input type="text" id="estado_civil_outorgante" name="estado_civil_outorgante" required>
+        
+        <label for="profissao_outorgante">Profissão:</label>
+        <input type="text" id="profissao_outorgante" name="profissao_outorgante" required>
+        
+        <label for="cpf_outorgante">CPF:</label>
+        <input type="text" id="cpf_outorgante" name="cpf_outorgante" required>
+        
+        <label for="rg_outorgante">RG:</label>
+        <input type="text" id="rg_outorgante" name="rg_outorgante" required>
+        
+        <label for="orgao_outorgante">Órgão Emissor:</label>
+        <input type="text" id="orgao_outorgante" name="orgao_outorgante" required>
+        
+        <label for="endereco_outorgante">Endereço:</label>
+        <input type="text" id="endereco_outorgante" name="endereco_outorgante" required>
+        
+        <label for="bairro_outorgante">Bairro:</label>
+        <input type="text" id="bairro_outorgante" name="bairro_outorgante" required>
+        
+        <label for="municipio_outorgante">Município:</label>
+        <input type="text" id="municipio_outorgante" name="municipio_outorgante" required>
+        
+        <label for="estado_outorgante">Estado:</label>
+        <input type="text" id="estado_outorgante" name="estado_outorgante" required>
+        
+        <label for="cep_outorgante">CEP:</label>
+        <input type="text" id="cep_outorgante" name="cep_outorgante" required>
+        
+        <label for="telefone_outorgante">Telefone:</label>
+        <input type="text" id="telefone_outorgante" name="telefone_outorgante" required>
+        
+        <h2>Outorgado</h2>
+        <label for="nome_outorgado">Nome completo:</label>
+        <input type="text" id="nome_outorgado" name="nome_outorgado" required>
+        
+        <label for="nacionalidade_outorgado">Nacionalidade:</label>
+        <input type="text" id="nacionalidade_outorgado" name="nacionalidade_outorgado" required>
+        
+        <label for="estado_civil_outorgado">Estado Civil:</label>
+        <input type="text" id="estado_civil_outorgado" name="estado_civil_outorgado" required>
+        
+        <label for="profissao_outorgado">Profissão:</label>
+        <input type="text" id="profissao_outorgado" name="profissao_outorgado" required>
+        
+        <label for="cpf_outorgado">CPF:</label>
+        <input type="text" id="cpf_outorgado" name="cpf_outorgado" required>
+        
+        <label for="rg_outorgado">RG:</label>
+        <input type="text" id="rg_outorgado" name="rg_outorgado" required>
+        
+        <label for="orgao_outorgado">Órgão Emissor:</label>
+        <input type="text" id="orgao_outorgado" name="orgao_outorgado" required>
+        
+        <label for="endereco_outorgado">Endereço:</label>
+        <input type="text" id="endereco_outorgado" name="endereco_outorgado" required>
+        
+        <label for="bairro_outorgado">Bairro:</label>
+        <input type="text" id="bairro_outorgado" name="bairro_outorgado" required>
+        
+        <label for="municipio_outorgado">Município:</label>
+        <input type="text" id="municipio_outorgado" name="municipio_outorgado" required>
+        
+        <label for="estado_outorgado">Estado:</label>
+        <input type="text" id="estado_outorgado" name="estado_outorgado" required>
+        
+        <label for="cep_outorgado">CEP:</label>
+        <input type="text" id="cep_outorgado" name="cep_outorgado" required>
+        
+        <label for="telefone_outorgado">Telefone:</label>
+        <input type="text" id="telefone_outorgado" name="telefone_outorgado" required>
+        
+        <label for="poderes">Poderes:</label>
+        <input type="text" id="poderes" name="poderes" required>
+        
+        <label for="data">Data (dia/mês/ano):</label>
+        <input type="date" id="data" name="data" required>
+        
+        <label for="local">Local:</label>
+        <input type="text" id="local" name="local" required>
+        
+        <button type="submit">Gerar PDF</button>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
